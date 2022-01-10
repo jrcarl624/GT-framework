@@ -20,8 +20,6 @@ We plan to provide a way for the users of packs created with the framework to ea
 - **Package manager**
 - **Website for easy configuration editing**
 
----
-
 ## Modules
 
 We plan to have a pseudo npm for different modules. It will be a system where each module will have its own config file. We plan to provide Built-in modules that provide a basic toolkit, for example there is `module/frameworkUtils`. Here is the provided example of the module structure:
@@ -63,8 +61,6 @@ As of right now we do not forsee the Bedrock team using node. So we thought we c
 <br />
 -- work in progress feature --
 
----
-
 ## Commands
 
 We provide a framework for building text commands within the game. This is a class based system where all you have to do is create a file and export the contents; then leave the dirty work to the framework. A example of how to create a command is below:
@@ -98,5 +94,3 @@ export var ping = class {
   }
 };
 ```
-
----
