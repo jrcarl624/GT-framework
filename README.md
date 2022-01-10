@@ -22,7 +22,7 @@ We plan to provide a way for the users of packs created with the framework to ea
 
 ## Modules
 
-We plan to have a pseudo npm for different modules. It will be a system where each module will have its own config file. We plan to provide Built-in modules that provide a basic toolkit, for example there is `module/frameworkUtils`. Here is the provided example of the module structure:
+We plan to have a pseudo npm for different modules. It will be a system where each module will have its own config file and modules. We plan to provide Built-in modules that provide a basic toolkit, for example there is `module/frameworkUtils`. Here is the provided example of the module structure:
 <br />
 
 ```js

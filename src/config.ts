@@ -6,7 +6,8 @@ export const Config = {
     packDescription: "Framework for modules and commands that can be used in Gametest",
     packWebsite: "",
     prefix: '!',
-    packDependencies: [],
+    packDependencies: { modules: ["frameworkUtils"], otherPacks: [] },
+
     commandSettings: {
         //  any settings you want to use for your commands can be defined here
         hardCoded: {
