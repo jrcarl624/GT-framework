@@ -1,4 +1,4 @@
-import { Commands, World } from "mojang-minecraft";
+import {  world as World } from "mojang-minecraft";
 import { Config } from "../index.js"
 const FormatText: object = {
     reset: "§r",
@@ -37,9 +37,10 @@ const log = (message: any, logToConsole?: boolean) => {
         console.warn(message);
     }
 }
+
 const runCommand = (command: string, dimension?: any, logToConsole?: boolean, origin?: string) => {
     try {
-        let cmd = Commands.run(command, World.getDimension(dimension ?? 'overworld'))
+        let cmd =  World.getDimension(dimension ?? 'overworld').runCommand(command)
         return cmd
     } catch (error) {
         log(`Command from ${origin} gave error: ${error}`, logToConsole)
