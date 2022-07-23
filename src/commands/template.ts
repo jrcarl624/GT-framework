@@ -1,4 +1,4 @@
-import { Commands, World, BeforeChatEvent } from "mojang-minecraft";
+import { World, BeforeChatEvent } from "mojang-minecraft";
 
 export var template = class {
     //Fill in all the fields here

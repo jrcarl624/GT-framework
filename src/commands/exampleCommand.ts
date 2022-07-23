@@ -1,4 +1,4 @@
-import { Commands, World, BeforeChatEvent } from "mojang-minecraft";
+import {  World, BeforeChatEvent } from "mojang-minecraft";
 import { exampleModule, fwUtils } from "../module/index.js";
 //define name of the command in the class name
 export var ping = class {
